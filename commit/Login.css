@@ -1,0 +1,149 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.headbar {
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 50px;
+    background-color: #000;
+    position: fixed;
+    padding: 8px 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    z-index: 1000;
+}
+
+.headbar a {
+    color: grey;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.headbar a:hover {
+    color: white;
+}
+
+.item {
+    padding: 10px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 800px;
+  }
+
+  .login-form {
+    width: 30%;
+    height: 300px;
+    padding: 40px 180px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    position: relative;
+    margin-top: 15%;
+  }
+  
+  .login-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .default-header {
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px;
+    color: #fff;
+    background-color: #4ea4dc;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;  
+  }
+  
+  .login-header h1 {
+    font-size: 24px;
+    color: #333;
+    margin: 0;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    padding: 20px 0 0;
+    margin: 0 0 10px;
+    
+  }
+  
+  .form-group input {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+  }
+  
+  .form-group button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form-group button:hover {
+    background-color: #0056b3;
+  }
+  
+  .signup-link {
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .signup-link a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .signup-link a:hover {
+    text-decoration: underline;
+  }
+
+
+  .sub-content {
+    display: flex;
+    justify-content: center;
+    height: 700px;
+  }
+
+  .signup-form {
+    width: 30%;
+    height: 300px;
+    padding: 40px 180px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    position: relative;
+    margin-top: 10%;
+}
+
+.box {
+    background-color: #333;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+}
+  
