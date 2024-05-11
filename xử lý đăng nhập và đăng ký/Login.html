@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Trang web bao cao nhom</title>
+        <link rel="Stylesheet" href="Login.css">
+        <meta charset="utf-8">
+        <title>Trang web bao cao nhom</title>
+        <link rel="Stylesheet" href="Login.css">
+        <script src="script.js"></script> <!-- Đường dẫn đến tập tin JavaScript -->
+    </head>
+
+    <body>
+        <div class="headbar">
+            <!-- <div>
+                <img src="cooltext453433230922022.png" alt="logo" width="200" height="50">
+            </div> -->
+            <div>
+                <a href="#" class="item">ĐĂNG NHẬP</a>
+                <a href="#dangky" class="item">ĐĂNG KÝ</a>
+            </div>
+        </div> 
+
+        <div class="main-content">
+            <div class="login-form">
+              <div class="login-header">
+                <div class="default-header">Đăng Nhập Tài Khoản</div>
+              </div>
+              <form action="/login" method="POST">
+                <div class="form-group">
+                  <input type="text" name="username" placeholder="Tên đăng nhập" required>
+                </div>
+                <div class="form-group">
+                  <input type="password" name="password" placeholder="Mật khẩu" required>
+                </div>
+                <div class="form-group">
+                  <button type="submit">Đăng nhập</button>
+                </div>
+              </form>
+              <div class="signup-link">
+                <div>
+                    <a href="#">Quên mật khẩu</a>
+                </div>
+                <div>
+                    Không có tài khoản? <a href="#dangky">Đăng ký tại đây</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="sub-content">
+            <div class="box"></div>
+
+            <div class="signup-form" id="dangky">
+                <div class="login-header">
+                  <div class="default-header">Đăng Ký Tài Khoản</div>
+                </div>
+                <form action="/login" method="POST">
+                  <div class="form-group">
+                    <input type="text" name="username" placeholder="Tên đăng nhập" required>
+                  </div>
+                  <div class="form-group">
+                    <input type="password" name="password" placeholder="Mật khẩu" required>
+                  </div>
+                  <div class="form-group">
+                    <input type="password" name="password" placeholder="Xác nhận lại mật khẩu" required>
+                  </div>
+                  <div class="form-group">
+                    <button type="submit">Đăng ký</button>
+                  </div>
+                </form>
+                <div class="signup-link">
+                  <div>
+                      <a href="#"></a>
+                  </div>
+                  <div>
+                      Quay lại ⟳ <a href="#">Đăng nhập</a>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+    </body>
+    
+    
+    </div>
+</html>
